@@ -10,7 +10,7 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
         StudentReader studentReader = new StudentReader();
 
-        System.out.println("=== Sistema de Gestión de Estudiantes ===");
+        System.out.println("----- Información del estudiante -----");
         Student student = studentReader.read();
 
         student.info();
